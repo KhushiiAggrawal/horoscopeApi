@@ -11,4 +11,4 @@ const horoscopeSchema = new mongoose.Schema({
     required: true,
   }
 });
-export const horoscopeModel = mongoose.model("horosope", horoscopeSchema);
+export const horoscopeModel = mongoose.model("horoscope", horoscopeSchema);

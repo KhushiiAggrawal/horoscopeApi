@@ -7,7 +7,7 @@ app.use(express.json());
 //CORS
 app.use(
   cors({
-    origin: ["*", "http://localhost:5000", "http://localhost:3000"],
+    origin: ["*", "http://localhost:5000", "http://localhost:3000","https://turquoise-squirrel-tam.cyclic.app/horoscope?title=pisces"],
     method: ["GET", "POST", "DELETE", "PUT", "PATCH"],
     credentials: true,
   })
